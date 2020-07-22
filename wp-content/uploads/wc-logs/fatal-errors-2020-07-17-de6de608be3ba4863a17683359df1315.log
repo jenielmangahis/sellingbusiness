@@ -1,9 +1,0 @@
-2020-07-17T04:59:45+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-content/plugins/wp-realestate-wc-paid-listings/includes/class-submit-form.php:139
-Stack trace:
-#0 /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-content/plugins/wp-realestate/includes/class-abstract-form.php(31): WP_RealEstate_Wc_Paid_Listings_Submit_Form::choose_package_handler()
-#1 /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-includes/class-wp-hook.php(287): WP_RealEstate_Abstract_Form->process(Object(WP))
-#2 /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
-#3 /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
-#4 /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-includes/class-wp.php(752): do_action_ref_array('wp', Array)
-#5 /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-includes/functions.php(1274): WP->main( in /home2/sellingb/beta2.sellingbusinessesaustralia.com.au/wp-content/plugins/wp-realestate-wc-paid-listings/includes/class-submit-form.php on line 139
-

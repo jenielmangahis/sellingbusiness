@@ -4,7 +4,11 @@ Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, wordp
 Requires at least: 3.3
 Tested up to: 5.4
 Requires PHP: 5.2.17
+<<<<<<< HEAD
 Stable tag: 7.24
+=======
+Stable tag: 7.25
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -108,6 +112,14 @@ Alternatively you can download the plugin using the download button on this page
 All-in-One WP Migration **asks for your consent** to collect **requester's email address** when filling plugin's contact form. [GDPR Compliant Privacy Policy](https://www.iubenda.com/privacy-policy/946881)
 
 == Changelog ==
+<<<<<<< HEAD
+=======
+= 7.25 =
+**Added**
+
+* Improved support for pretty permalinks detection on import
+
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c
 = 7.24 =
 **Added**
 

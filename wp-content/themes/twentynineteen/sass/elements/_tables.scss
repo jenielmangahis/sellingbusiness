@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table {
 	margin: 0 0 $size__spacing-unit;
 	border-collapse: collapse;
@@ -11,3 +12,18 @@ table {
 		word-break: break-all;
 	}
 }
+=======
+table {
+	margin: 0 0 $size__spacing-unit;
+	border-collapse: collapse;
+	width: 100%;
+	@include font-family( $font__heading );
+
+	td,
+	th {
+		padding: 0.5em;
+		border: 1px solid $color__text-light;
+		word-break: break-all;
+	}
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

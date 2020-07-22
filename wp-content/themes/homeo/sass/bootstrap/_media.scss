@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .media {
   // Proper spacing between instances of .media
   margin-top: 15px;
@@ -45,3 +46,52 @@
   padding-left: 0;
   list-style: none;
 }
+=======
+.media {
+  // Proper spacing between instances of .media
+  margin-top: 15px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.media-right,
+.media > .pull-right {
+  padding-left: 15px;
+}
+
+.media-left,
+.media > .pull-left {
+  padding-right: 15px;
+}
+
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-middle {
+  vertical-align: middle;
+}
+
+.media-bottom {
+  vertical-align: bottom;
+}
+
+// Reset margins on headings for tighter default spacing
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+// Media list variation
+//
+// Undo default ul/ol styles
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

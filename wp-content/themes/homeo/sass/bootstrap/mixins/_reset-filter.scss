@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Reset filters for IE
 //
 // When you need to remove a gradient background, do not forget to use this to reset
@@ -6,3 +7,13 @@
 @mixin reset-filter() {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
+=======
+// Reset filters for IE
+//
+// When you need to remove a gradient background, do not forget to use this to reset
+// the IE filter for IE9 and below.
+
+@mixin reset-filter() {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

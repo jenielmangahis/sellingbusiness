@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Center-align a block level element
 
 @mixin center-block() {
@@ -5,3 +6,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+=======
+// Center-align a block level element
+
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

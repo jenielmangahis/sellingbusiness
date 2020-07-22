@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Typography
 
 // [converter] $parent hack
@@ -9,3 +10,16 @@
     color: darken($color, 10%);
   }
 }
+=======
+// Typography
+
+// [converter] $parent hack
+@mixin text-emphasis-variant($parent, $color) {
+  #{$parent} {
+    color: $color;
+  }
+  a#{$parent}:hover {
+    color: darken($color, 10%);
+  }
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

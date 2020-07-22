@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // WebKit-style focus
 
 @mixin tab-focus() {
@@ -7,3 +8,14 @@
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+=======
+// WebKit-style focus
+
+@mixin tab-focus() {
+  // Default
+  outline: 0;
+  // WebKit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

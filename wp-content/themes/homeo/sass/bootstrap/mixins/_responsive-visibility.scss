@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Responsive utilities
 
 //
@@ -19,3 +20,26 @@
     display: none !important;
   }
 }
+=======
+// Responsive utilities
+
+//
+// More easily include all the states for responsive-utilities.less.
+// [converter] $parent hack
+@mixin responsive-visibility($parent) {
+  #{$parent} {
+    display: block !important;
+  }
+  table#{$parent}  { display: table; }
+  tr#{$parent}     { display: table-row !important; }
+  th#{$parent},
+  td#{$parent}     { display: table-cell !important; }
+}
+
+// [converter] $parent hack
+@mixin responsive-invisibility($parent) {
+  #{$parent} {
+    display: none !important;
+  }
+}
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c

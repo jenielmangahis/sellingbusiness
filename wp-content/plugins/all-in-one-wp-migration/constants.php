@@ -35,7 +35,11 @@ define( 'AI1WM_DEBUG', false );
 // ==================
 // = Plugin Version =
 // ==================
+<<<<<<< HEAD
 define( 'AI1WM_VERSION', '7.24' );
+=======
+define( 'AI1WM_VERSION', '7.25' );
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c
 
 // ===============
 // = Plugin Name =
@@ -350,7 +354,11 @@ define( 'AI1WM_SUPPORT_EMAIL', 'support@servmask.com' );
 // =================
 // = Max File Size =
 // =================
+<<<<<<< HEAD
 define( 'AI1WM_MAX_FILE_SIZE', 2 << 30 );
+=======
+define( 'AI1WM_MAX_FILE_SIZE', 2 << 28 );
+>>>>>>> 12e5ad6e736125b89a23634631fb9afa8f10232c
 
 // ==================
 // = Max Chunk Size =

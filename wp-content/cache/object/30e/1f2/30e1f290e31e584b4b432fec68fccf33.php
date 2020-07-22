@@ -1,0 +1,1 @@
+f_<?php exit; ?>a:1:{s:7:"content";a:3:{s:8:"bg_color";a:1:{i:0;s:0:"";}s:10:"text_color";a:1:{i:0;s:0:"";}s:10:"menu_order";a:1:{i:0;s:0:"";}}}

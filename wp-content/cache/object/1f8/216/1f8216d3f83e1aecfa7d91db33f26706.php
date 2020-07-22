@@ -1,0 +1,1 @@
+f_<?php exit; ?>a:1:{s:7:"content";a:1:{s:6:"_color";a:1:{i:0;s:7:"#e8c735";}}}

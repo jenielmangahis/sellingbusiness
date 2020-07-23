@@ -171,7 +171,8 @@ if ( ! function_exists( 'homeo_breadcrumbs' ) ) {
 				if ( is_tax('property_status') || is_tax('property_type') || is_tax('property_location') || is_tax('property_amenity') || is_tax('property_label') || is_tax('property_material') ) {
 					if ( class_exists('WP_RealEstate_Mixes') ) {
 						$url = WP_RealEstate_Mixes::get_properties_page_url();
-						echo '<li><a href="' . esc_url($url) . '">' . esc_html__('Properties', 'homeo') . '</a></li> ' . $delimiter . ' ';
+						//echo '<li><a href="' . esc_url($url) . '">' . esc_html__('Properties', 'homeo') . '</a></li> ' . $delimiter . ' ';
+						echo '<li><a href="' . esc_url($url) . '">' . esc_html__('Business', 'homeo') . '</a></li> ' . $delimiter . ' ';
 					}
 
 					global $wp_query;
